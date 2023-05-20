@@ -1,0 +1,96 @@
+.chat-section{
+    height: inherit;
+    background-color: #e9edef;;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.chat-section>.whatapp-logo-container{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    background-color: #e9edef;;
+    grid-gap:20px
+}
+.chat-section>div>svg{
+
+}
+.chat-section>.whatapp-logo-container>h1{
+   color: #41525d;
+   font-weight: 300;
+   font-size: 28px;
+}
+.chat-section>.whatapp-logo-container>p{
+    text-align: center;
+   color: #667781;
+   font-weight: 400;
+   
+}
+.whatapp-contact-container{
+    flex: 1;
+    overflow: scroll;
+    background: url('/public//images/bg.png') no-repeat center ;
+    background-size: cover;
+    padding: 1rem;
+    background-color: #f3efe9;
+    
+}
+.whatapp-contact-container>div{
+
+    width: fit-content;
+    padding:1.5rem;
+    border-radius: 0 30px 30px 30px ;
+    /* background-color: white; */
+    margin-bottom: 1.5rem;
+    max-width: 250px;
+}
+.footer-chat{
+    display:flex;
+    padding:1rem;
+    
+    background-color: #f0f2f5;
+    grid-gap:5px;
+    position:relative;
+}
+.chat-emoji{
+    position:absolute;
+    bottom: 100%;
+}
+.footer-chat>div:nth-child(2),.footer-chat>div:nth-child(1){
+   
+   display: flex;
+   grid-gap:15px
+}
+
+.footer-chat>div{
+    
+    align-self: center;
+   
+}
+
+.footer-chat>form>input{
+    flex:1 1 auto;
+    height: 30px;
+    width: 100%;
+    border:none;
+    border-radius: 8px;
+    padding: 16px;
+   
+}
+input:focus-visible{
+   outline:none !important;
+   border:none !important;
+   
+}
+.messageFile-a{
+    text-decoration:none;
+    display:flex;
+    grid-gap:10px;
+    color:#585252;
+}
+.messageFile-a> svg{
+   min-width:30px;
+   object-fit: cover;
+}
